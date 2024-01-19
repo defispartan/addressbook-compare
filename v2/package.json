@@ -1,0 +1,8 @@
+{
+  "name": "address-book-compare-v2",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@bgd-labs/aave-address-book": "2.15.2"
+  }
+}

@@ -1,0 +1,10 @@
+declare const TRANSPARENT_PROXY_FACTORY = "0x3Bad08c7b17D77cE12A2e1438Db2353b58F7c4a2";
+declare const PROXY_ADMIN = "0x8dDa7a1E3e96EB13BE50bB59e80485227E3DE2e7";
+
+declare const MiscSepolia_PROXY_ADMIN: typeof PROXY_ADMIN;
+declare const MiscSepolia_TRANSPARENT_PROXY_FACTORY: typeof TRANSPARENT_PROXY_FACTORY;
+declare namespace MiscSepolia {
+  export { MiscSepolia_PROXY_ADMIN as PROXY_ADMIN, MiscSepolia_TRANSPARENT_PROXY_FACTORY as TRANSPARENT_PROXY_FACTORY };
+}
+
+export { MiscSepolia as M, PROXY_ADMIN as P, TRANSPARENT_PROXY_FACTORY as T };
